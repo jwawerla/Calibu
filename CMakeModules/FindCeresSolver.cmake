@@ -4,8 +4,8 @@
 #  CeresSolver_INCLUDE_DIRS - the libCeresSolver include directories
 #  CeresSolver_LIBRARIES - link these to use libCeresSolver
 
-SET(SEARCH_LIBS "/usr/lib;/usr/local/lib;/usr/local/homebrew/lib;/opt/local/lib")
-SET(SEARCH_HDRS "/usr/include;/usr/local/include;/usr/local/homebrew/include;/opt/local/include")
+SET(SEARCH_LIBS "/usr/lib;/usr/local/lib;/usr/local/homebrew/lib;/opt/local/lib;${PROJECT_SOURCE_DIR}/external/local/lib" )
+SET(SEARCH_HDRS "/usr/include;/usr/local/include;/usr/local/homebrew/include;/opt/local/include;${PROJECT_SOURCE_DIR}/external/local/include")
 
 ####################################################################
 # Find CeresSolver lib

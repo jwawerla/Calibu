@@ -1,0 +1,10 @@
+# ignore cmake output
+Makefile
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+
+# ignore sources and local install directories
+local
+sources
+
