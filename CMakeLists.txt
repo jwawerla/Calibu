@@ -47,3 +47,9 @@ if( BUILD_APPLICATIONS )
   add_subdirectory( examples )
 endif()
 
+#####################################
+# Documentation
+set( DOXYFILE_OUTPUT_DIR "doc" )
+include( UseDoxygen OPTIONAL )
+
+
