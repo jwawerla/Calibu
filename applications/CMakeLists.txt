@@ -7,6 +7,7 @@ if(NOT ANDROID)
     
     if( HAL_FOUND )
         add_subdirectory( calib-hal )
+        add_subdirectory( calib-capture )
     endif()
 
     include_directories(${Sophus_INCLUDE_DIR} ${Calibu_INCLUDE_DIRS})

@@ -114,7 +114,7 @@ int main( int argc, char** argv)
     hal::Camera  cam = hal::Camera( cl.follow( video_uri.c_str(), "-video_url" ) );
 
     // Vector of images (that will point into buffer)
-    std::vector<pangolin::Image<unsigned char> > images;
+    //std::vector<pangolin::Image<unsigned char> > images;
 
     // For the moment, assume all N cameras have same resolution
     const size_t N = cam.NumChannels();
