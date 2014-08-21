@@ -55,7 +55,7 @@ make
 ### With dc1394 cameras: ###
 
 ```
-calibgrid-hal dc1394:[[fmt=FORMAT7_0,size=640x480,iso=400,dma=10]//[0,1]
+calibgrid-hal dc1394:[fmt=FORMAT7_0,size=640x480,iso=400,dma=10]//[0,1]
 ```
 
 ### From image files: ###
