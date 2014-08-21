@@ -3,6 +3,10 @@ CMakeLists.txt.user
 debug
 release
 build
+<<<<<<< HEAD
 
 doc
 
+=======
+*~
+>>>>>>> 6471645f86c08e557ee747a2a7a2ea0d84c019ac

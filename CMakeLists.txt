@@ -25,6 +25,7 @@ endif()
 string(TOLOWER ${PROJECT_NAME} LIBRARY_NAME)
 add_subdirectory(src)
 
+include_directories( ${PROJECT_SOURCE_DIR}/external/local/include )
 include_directories(${EXPORT_CALIBU_INC})
 
 def_library(calibu
